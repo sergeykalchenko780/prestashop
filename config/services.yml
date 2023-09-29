@@ -1,0 +1,11 @@
+services:
+  _defaults:
+    public: true
+
+  PrestaShop\Module\ExtendOrderGrid\QueryModifier:
+    class: PrestaShop\Module\ExtendOrderGrid\QueryModifier
+
+  PrestaShop\Module\ExtendOrderGrid\GridModifier:
+    class: PrestaShop\Module\ExtendOrderGrid\GridModifier
+    arguments:
+      $translator: '@translator'
