@@ -1,0 +1,18 @@
+{
+    "name": "extendordergrid/extendordergrid",
+    "description": "Module for adding an additional column to order grid",
+    "authors": [
+        {
+            "name": "Sergey K"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "type": "prestashop-module",
+    "autoload": {
+        "psr-4": {
+            "PrestaShop\\Module\\ExtendOrderGrid\\": "src/"
+        }
+    }
+}
